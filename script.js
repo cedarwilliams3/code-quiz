@@ -69,3 +69,5 @@ var quizQuestions = [{
     choiceC: "class",
     choiceD: "index",
     correctAnswer: "b"},
+
+];
