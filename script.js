@@ -1,4 +1,4 @@
-// My HTML Elements //
+// Gathering HTML elements for manipulation
 var quizBody = document.getElementById("quiz");
 var resultsEl = document.getElementById("result");
 var finalScoreEl = document.getElementById("finalScore");
@@ -69,8 +69,9 @@ var quizQuestions = [{
     choiceC: "class",
     choiceD: "index",
     correctAnswer: "b"},
-
-];
+        
+    
+    ];
 // Other global variables
 var finalQuestionIndex = quizQuestions.length;
 var currentQuestionIndex = 0;
@@ -79,7 +80,7 @@ var timerInterval;
 var score = 0;
 var correct;
 
-//This function cycles through the object array containing the quiz questions to generate the questions and answers.
+// This function cycles through the object array containing the quiz questions to generate the questions and answers.
 function generateQuizQuestion(){
     gameoverDiv.style.display = "none";
     if (currentQuestionIndex === finalQuestionIndex){
