@@ -1,10 +1,10 @@
-#Code Quiz
+Code Quiz
 Test your knowlegde about coding! Answer these questions within the time limit and then see your high score. 
 
-#User Story
+User Story
 AS A coding student learning new coding languages I WANT to build a quiz to test my knowledge as well as my fellow students SO THAT I can master the concepts from class and get a job after bootcamp is over. 
 
-#Build Status
+Build Status
 To start the quiz, click the start button and select your answers. The timer is going in the corner to let you know how much time you have left, and pop up windows let you know if your answers to each question are correct or incorrect. Once you have answered all questions, you will enter your initials and see your high score displayed. 
 
 # URL to Deployed Webpage 
